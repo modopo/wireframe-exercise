@@ -3,7 +3,7 @@
 }
 
 header {
-  background-color: cadetblue;
+  background-color: skyblue;
   display: flex;
   flex-wrap: wrap;
   width: 960px;
@@ -52,13 +52,26 @@ article {
 }
 
 article section {
-  height: 400px;
+  height: 325px;
   margin-bottom: 30px;
   overflow: auto;
 }
 
+article a {
+  background-color: lightgrey;
+  padding: 15px 25px;
+}
+
+article a:hover{
+  transition-duration: 350ms;
+  background-color: darkgrey;
+  color: white;
+}
+
 footer {
+  display: flex;
+  margin: auto;
   background-color: lightgreen;
-  height: 100px;
-  width: 960 px;
+  height: 150px;
+  width: 960px;
 }
