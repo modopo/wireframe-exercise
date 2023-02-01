@@ -62,7 +62,7 @@ article a {
   padding: 15px 25px;
 }
 
-article a:hover{
+article a:hover {
   transition-duration: 350ms;
   background-color: darkgrey;
   color: white;
