@@ -13,23 +13,23 @@ header {
 
 nav {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 960px;
   align-items: center;
   justify-content: center;
 }
 
 nav ul {
-  width: 100%;
+  width: calc(100% - 200px);
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
-nav li {
+/* nav li {
   width: 20%;
-}
-
-nav a {
+} */
+ a {
   display: flex;
   justify-content: center;
 }
